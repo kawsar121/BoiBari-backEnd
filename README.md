@@ -70,13 +70,27 @@ student-book-library-marketplace/
 │   └── package.json
 │
 ├── frontend/
-│   ├── app/
-│   ├── components/
-│   ├── hooks/
-│   ├── services/
-│   ├── styles/
-│   ├── utils/
-│   └── package.json
+│
+├── app/
+│   ├── layout.js
+│   ├── page.js
+│   ├── login/page.js
+│   ├── register/page.js
+│   ├── dashboard/page.js
+│   ├── admin/page.js
+│   ├── books/[id]/page.js
+│   ├── reset-password/[token]/page.js
+│
+├── components/
+│   ├── Navbar.jsx
+│   ├── BookCard.jsx
+│   ├── Carousel.jsx
+│   ├── SearchBar.jsx
+│
+├── lib/
+│   └── api.js
+│
+├── middleware.js
 │
 └── README.md
 ⚙️ Installation & Setup
