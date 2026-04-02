@@ -1,0 +1,6 @@
+const userLogin = async (req, res)=>{};
+const userRegister = async (req, res)=>{};
+const adminLogin = async (req, res)=>{};
+const removeUser = async (req, res)=>{};
+const updateUser = async (req, res)=>{};
+const getUser = async (req, res)=>{};
